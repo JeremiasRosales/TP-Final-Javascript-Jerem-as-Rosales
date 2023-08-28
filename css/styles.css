@@ -1,0 +1,33 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.delete
+{
+    display: inline;
+}
+
+main
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_options
+{
+    border: solid;
+}
+
+.main_dolar
+{
+    border:solid;
+}
