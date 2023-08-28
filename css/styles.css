@@ -1,8 +1,24 @@
+header
+{
+    padding-top: 30px;
+}
+
 body
 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.main_options
+{
+    padding: 5px;
+}
+
+.main_dolar
+{
+    padding: 5px;
 }
 
 ul
@@ -19,7 +35,7 @@ main
 {
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .main_options
@@ -32,4 +48,30 @@ main
 {
     border:solid;
     border-radius: 10px;
+}
+
+.borrar
+{
+    background: url("../images/delete.png");
+    background-color: rgb(218, 134, 134);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
+}
+
+.duplicar
+{
+    background: url("../images/plus.png");
+    background-color: rgb(111, 196, 111);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 21px;
+    height: 21px;
+    border-radius: 3px;
 }

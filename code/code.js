@@ -87,8 +87,8 @@ const mostrarCarrito = () => //Muestra el carrito según lo que hay en el array
     !carrito.length && (displayCarrito.innerHTML = "<li>El carrito está vacio</li>"); //Si el carrito esta vacio, muestra este mensaje
 
     carrito.forEach ((comic, i) => displayCarrito.innerHTML += `<li>Compra de ${carrito[i].nombre} importado de ${carrito[i].pais} por un costo de ${carrito[i].precioTotal} $</li> 
-    <button class="borrar" onclick="eliminarComic(${i})">Eliminar</button>
-    <button class="duplicar" onclick="duplicarComic(${i})">Agregar otro</button>`); //Copia el array en el html y agrega boton de borrado
+    <button class="borrar" onclick="eliminarComic(${i})"></button>
+    <button class="duplicar" onclick="duplicarComic(${i})"></button>`); //Copia el array en el html y agrega boton de borrado
     carritoStorage = JSON.stringify(carrito); //convierte el carrito a string de JSON
     localStorage.setItem("carro", carritoStorage); //guarda el carrito como string en el localStorage
     calcularTotal();
