@@ -1,6 +1,7 @@
 header
 {
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 body
@@ -74,4 +75,11 @@ main
     width: 21px;
     height: 21px;
     border-radius: 3px;
+}
+
+.display_total
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
