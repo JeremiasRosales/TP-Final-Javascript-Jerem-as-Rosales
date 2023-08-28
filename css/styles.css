@@ -25,9 +25,11 @@ main
 .main_options
 {
     border: solid;
+    border-radius: 10px;
 }
 
 .main_dolar
 {
     border:solid;
+    border-radius: 10px;
 }
